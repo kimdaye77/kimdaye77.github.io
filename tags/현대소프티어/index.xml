@@ -6,14 +6,23 @@
     <description>Recent content in 현대소프티어 on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jul 2023 14:57:48 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%98%84%EB%8C%80%EC%86%8C%ED%94%84%ED%8B%B0%EC%96%B4/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Jul 2023 18:09:15 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%98%84%EB%8C%80%EC%86%8C%ED%94%84%ED%8B%B0%EC%96%B4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[현대 소프티어] FE 뉴스스탠드 #3</title>
+      <link>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand3/</link>
+      <pubDate>Wed, 19 Jul 2023 18:09:15 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand3/</guid>
+      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3 fe-newsstand 7.</description>
+    </item>
+    
     <item>
       <title>[현대 소프티어] FE 뉴스스탠드 #2</title>
       <link>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand2/</link>
       <pubDate>Tue, 18 Jul 2023 14:57:48 +0900</pubDate>
       
       <guid>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand2/</guid>
-      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3</description>
+      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3 fe-newsstand 7.</description>
     </item>
     
     <item>
@@ -22,7 +31,7 @@
       <pubDate>Mon, 17 Jul 2023 18:47:22 +0900</pubDate>
       
       <guid>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand1/</guid>
-      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3</description>
+      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3 fe-newsstand 7.</description>
     </item>
     
   </channel>
