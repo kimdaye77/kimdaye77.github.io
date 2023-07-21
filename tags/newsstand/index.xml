@@ -6,7 +6,16 @@
     <description>Recent content in newsstand on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 20 Jul 2023 18:12:04 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/newsstand/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 21 Jul 2023 15:13:25 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/newsstand/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[현대 소프티어] FE 뉴스스탠드 #5</title>
+      <link>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand5/</link>
+      <pubDate>Fri, 21 Jul 2023 15:13:25 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand5/</guid>
+      <description>FE 뉴스스탠드 3주차 # 참고 fe-newsstand #3</description>
+    </item>
+    
     <item>
       <title>[현대 소프티어] FE 뉴스스탠드 #4</title>
       <link>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand4/</link>
