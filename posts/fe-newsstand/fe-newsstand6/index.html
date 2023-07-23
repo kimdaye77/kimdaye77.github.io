@@ -546,8 +546,35 @@
 <h3 id="done" class="relative group">Done <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#done" aria-label="Anchor">#</a></span></h3>
 <p>오늘은 주말이지만 열심히 코딩을 달렸다. 왜냐? 곧 8월에 프로젝트를 들어가기 전에 미션은 빨리 끝내면 좋을 것 같아서&hellip; 지금 블로그 글을 쓰고 있는 와중에 너무 졸리다.
 구현한 기능은 아래와 같이 할 일 목록들 중 5개 정도 구현했다.</p>
-<img src="/img/fe-newsstand6.png" width="300" height="300">
-오늘 구현하면서 DOM에 대해 더 알게 된 것 같다.
+<p>
+
+
+
+
+  
+  
+    
+  
+  
+    <figure>
+      <img
+        class="mx-auto my-0 rounded-md"
+        
+          
+            src="/img/fe-newsstand6.png"
+          
+        
+        alt="todo"
+        
+          loading="lazy"
+        
+      />
+      
+    </figure>
+  
+
+
+오늘 구현하면서 DOM에 대해 더 알게 된 것 같다.</p>
 <h3 id="dom" class="relative group">DOM <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#dom" aria-label="Anchor">#</a></span></h3>
 <p>우선 DOM에 대해 무엇인지 간단하게 짚고 가겠다.</p>
 <h4 id="document-object-model" class="relative group">Document Object Model <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#document-object-model" aria-label="Anchor">#</a></span></h4>
@@ -664,7 +691,7 @@ html을 변경할 수 있기 때문에 템플릿 리터럴과 병행해서 사�
 <blockquote>
 <p>innerHTML을 사용할 때 주의해야 할 점은, 이 속성을 사용하면 기존의 내부 콘텐츠가 완전히 대체되기 때문에 해당 요소 안에 있던 이벤트 핸들러들이나 다른 DOM 요소들은 모두 사라지게 됩니다. 따라서 innerHTML을 사용하여 DOM을 변경할 때에는 주의하여 기존의 요소들이 어떻게 영향을 받는지를 고려해야 합니다.</p>
 </blockquote>
-<p>라고 gpt도 주의해준다.</p>
+<p>라고 gpt도 주의시킨다.</p>
 <h4 id="문제-발생-이유-및-해결-방법" class="relative group">문제 발생 이유 및 해결 방법 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%eb%ac%b8%ec%a0%9c-%eb%b0%9c%ec%83%9d-%ec%9d%b4%ec%9c%a0-%eb%b0%8f-%ed%95%b4%ea%b2%b0-%eb%b0%a9%eb%b2%95" aria-label="Anchor">#</a></span></h4>
 <p>innerHTML을 사용하면 이전에 생성한 요소를 포함하는 요소 <code>innerHTML</code>내부의 전체 콘텐츠가 다시 생성된다.
 <br>따라서 innerHTML 기본적으로 기존 요소가 제거되고 반환된 콘텐츠로 대체된다.
