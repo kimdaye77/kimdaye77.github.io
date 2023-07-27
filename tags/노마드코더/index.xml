@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>노마드코더 on Dayo&#39;s Blog</title>
+    <link>https://kimdaye77.github.io/tags/%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94/</link>
+    <description>Recent content in 노마드코더 on Dayo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jul 2023 18:06:48 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TS] Type script 공부 #1</title>
+      <link>https://kimdaye77.github.io/posts/types-cript/type-script1/</link>
+      <pubDate>Thu, 27 Jul 2023 18:06:48 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/types-cript/type-script1/</guid>
+      <description>Type script 공부 #1 # 노마드코더 강의 링크 오늘은 어제 뉴스스탠드 기능 구현을 완료했으므로 예외 처리 간단한 거 3개만 해주고 8월에 있는 프로젝트를 위해 노마드코더의 타입스크립트 강의를 봤다.</description>
+    </item>
+    
+  </channel>
+</rss>
