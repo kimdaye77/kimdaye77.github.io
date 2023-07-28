@@ -511,9 +511,9 @@
             <li><a href="#타입스크립트-장점">타입스크립트 장점</a></li>
             <li><a href="#-null-병합-연산자-nullish-coalescing-operator">?? Null 병합 연산자 (Nullish coalescing operator)</a></li>
             <li><a href="#currenttarget과-target-차이">currentTarget과 target 차이</a></li>
-            <li><a href="#es6-문법">ES6 문법</a></li>
           </ul>
         </li>
+        <li><a href="#es6-문법">ES6 문법</a></li>
       </ul>
     </li>
   </ul>
@@ -574,26 +574,26 @@ js에서 굉장히 많이 쓴다..!</p>
 <ul>
 <li>typescript에서 reactjs는 <code>currentTarget</code> 사용을 택했다.</li>
 </ul>
-<h4 id="es6-문법" class="relative group">ES6 문법 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#es6-%eb%ac%b8%eb%b2%95" aria-label="Anchor">#</a></span></h4>
+<h3 id="es6-문법" class="relative group">ES6 문법 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#es6-%eb%ac%b8%eb%b2%95" aria-label="Anchor">#</a></span></h3>
 <p><a
   href="https://nomadcoders.co/react-masterclass/lectures/3336"
   
   target="_blank" rel="noreferrer noopener"
 >https://nomadcoders.co/react-masterclass/lectures/3336</a> -몰랐던 신기한 es6 문법</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="kr">const</span> <span class="p">{</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">const</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nx">currentTarget</span><span class="o">:</span> <span class="p">{</span> <span class="nx">value</span> <span class="p">},</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="o">=</span> <span class="nx">event</span><span class="p">;</span>
 </span></span></code></pre></div><p>event안 curentTarget안에 value의 값을 기존 이름 그대로 value 라는 변수를 만든다.
 <code>const value = event.currentTarget.value</code> 랑 같은 의미이다.
 <br>왜 사용할까?
 <br>currentTarget안에서 value, tagName, width, id 등 <strong>여러 개</strong> 를 가져오고 싶을 때 장점이 있다.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">기존</span> <span class="nx">문법</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="err">#</span> <span class="err">기존</span> <span class="err">문법</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">value</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span><span class="p">.</span><span class="nx">value</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">tagName</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span><span class="p">.</span><span class="nx">tagName</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">width</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span><span class="p">.</span><span class="nx">width</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">id</span> <span class="o">=</span> <span class="nx">event</span><span class="p">.</span><span class="nx">currentTarget</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
 </span></span></code></pre></div><p>이거를 이렇게 바꿔 쓸 수 있다.</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-js" data-lang="js"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">ES6</span> <span class="nx">문법</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="err">#</span> <span class="nx">ES6</span> <span class="err">문법</span>
 </span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl"><span class="nx">currentTarget</span><span class="o">:</span> <span class="p">{</span><span class="nx">value</span><span class="p">,</span> <span class="nx">tagName</span><span class="p">,</span> <span class="nx">width</span><span class="p">,</span> <span class="nx">id</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span> <span class="o">=</span> <span class="nx">event</span><span class="p">;</span>
@@ -687,6 +687,25 @@ js에서 굉장히 많이 쓴다..!</p>
           
         </span>
         <span>
+          
+            <a class="group flex text-right" href="/posts/types-cript/type-script2/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >[TS] Type script 공부 #2</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-07-28 17:55:14 &#43;0900 KST">28 July 2023</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&rarr;</span
+                ><span class="ltr:hidden rtl:inline">&larr;</span></span
+              >
+            </a>
           
         </span>
       </div>

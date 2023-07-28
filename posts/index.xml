@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Jul 2023 18:06:48 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 17:55:14 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[TS] Type script 공부 #2</title>
+      <link>https://kimdaye77.github.io/posts/types-cript/type-script2/</link>
+      <pubDate>Fri, 28 Jul 2023 17:55:14 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/types-cript/type-script2/</guid>
+      <description>Type script 공부 #2 # 노마드코더 강의 링크 사실 오늘은 개발 시간이 없고 기획+디자인 리뷰와 데모 영상 시연으로 공부를 거의 하지 못했다.</description>
+    </item>
+    
     <item>
       <title>[TS] Type script 공부 #1</title>
       <link>https://kimdaye77.github.io/posts/types-cript/type-script1/</link>
