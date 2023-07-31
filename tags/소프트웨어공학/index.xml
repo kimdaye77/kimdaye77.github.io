@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>소프트웨어공학 on Dayo&#39;s Blog</title>
+    <link>https://kimdaye77.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B3%B5%ED%95%99/</link>
+    <description>Recent content in 소프트웨어공학 on Dayo&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Jul 2023 21:03:25 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B3%B5%ED%95%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>소프트웨어 개발 방법론</title>
+      <link>https://kimdaye77.github.io/posts/software-engineering/software-engineering/</link>
+      <pubDate>Mon, 31 Jul 2023 21:03:25 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/software-engineering/software-engineering/</guid>
+      <description>현업에서 소프트웨어 개발 # 현업에서는 소프트웨어 개발을 진행할 때 프로젝트를 어떻게 만들지 설계를 해야한다.</description>
+    </item>
+    
+  </channel>
+</rss>
