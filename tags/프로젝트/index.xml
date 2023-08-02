@@ -6,7 +6,16 @@
     <description>Recent content in 프로젝트 on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Aug 2023 21:47:31 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Aug 2023 17:53:03 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Project] Cartag 프로젝트 #2</title>
+      <link>https://kimdaye77.github.io/posts/cartag/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</link>
+      <pubDate>Wed, 02 Aug 2023 17:53:03 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/cartag/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</guid>
+      <description>Cartag 프로젝트 #2 # 오늘은 제너럴 컴포넌트를 구현했다.</description>
+    </item>
+    
     <item>
       <title>[Project] Cartag 프로젝트 #1</title>
       <link>https://kimdaye77.github.io/posts/cartag/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8/</link>
