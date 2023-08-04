@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Aug 2023 20:06:36 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 22:19:41 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[CS] CS 공부 #1</title>
+      <link>https://kimdaye77.github.io/posts/cs-study/cs-study1/</link>
+      <pubDate>Fri, 04 Aug 2023 22:19:41 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/cs-study/cs-study1/</guid>
+      <description>CS 스터디 # 갑자기 CS 스터디 포스팅을 하게 된 이유는 다음과 같다.</description>
+    </item>
+    
     <item>
       <title>Hugo 블로그 제작기 - 댓글편</title>
       <link>https://kimdaye77.github.io/posts/create-blog/create-blog-comments/</link>
