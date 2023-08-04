@@ -6,7 +6,16 @@
     <description>Recent content on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Aug 2023 18:49:50 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Aug 2023 20:06:36 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 블로그 제작기 - 댓글편</title>
+      <link>https://kimdaye77.github.io/posts/create-blog/create-blog-comments/</link>
+      <pubDate>Fri, 04 Aug 2023 20:06:36 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/create-blog/create-blog-comments/</guid>
+      <description>Hugo 댓글 제작 # 댓글 기능 제작 결심 # 크롱님께서 쉬는 시간을 주셔서 오늘 고시원으로 간소한 이사(?</description>
+    </item>
+    
     <item>
       <title>[Project] Cartag 프로젝트 #3</title>
       <link>https://kimdaye77.github.io/posts/cartag/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B83/</link>
