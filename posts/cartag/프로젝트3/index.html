@@ -661,7 +661,56 @@ inherit : 부모 요소로부터 pointer-events 값을 상속받는다.
 
       
         
-          
+          <div class="pt-3">
+            <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+            <div class="pt-3">
+              <script
+  src="https://utteranc.es/client.js"
+  repo="kimdaye77/Blog-comments"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async
+></script>
+
+<script>
+  const currentAppearance = localStorage.getItem("appearance");
+  const regex = /^Switch.*appearance$/;
+
+  document.addEventListener("click", function (event) {
+    const targetButton = event.target.closest("div");
+    if (targetButton && regex.test(targetButton.title)) reloadUtterances();
+  });
+
+  
+  function reloadUtterances() {
+    const utterancesContainer = document.querySelector(".utterances");
+    utterancesContainer.innerHTML = ""; 
+
+    
+    const newScript = document.createElement("script");
+    newScript.src = "https://utteranc.es/client.js";
+    newScript.setAttribute("repo", "kimdaye77/Blog-comments");
+    newScript.setAttribute("issue-term", "pathname");
+    newScript.setAttribute(
+      "theme",
+      localStorage.getItem("appearance") === "dark"
+        ? "github-dark"
+        : "github-light"
+    );
+    newScript.setAttribute("crossorigin", "anonymous");
+    newScript.setAttribute("async", true);
+    
+    utterancesContainer.appendChild(newScript);
+  }
+  
+  window.onload = function () {
+    reloadUtterances();
+  };
+</script>
+
+            </div>
+          </div>
         
       
     </footer>
@@ -693,13 +742,6 @@ inherit : 부모 요소로부터 pointer-events 값을 상속받는다.
         </p>
       
       
-      
-        <p class="text-xs text-neutral-500 dark:text-neutral-400">
-          
-          
-          Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
-        </p>
       
     </div>
     
