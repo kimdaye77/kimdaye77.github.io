@@ -6,7 +6,16 @@
     <description>Recent content in 프론트엔드 on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Jul 2023 17:51:34 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Aug 2023 22:13:26 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/tags/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[FE] CSS 라이브러리와 프레임워크</title>
+      <link>https://kimdaye77.github.io/posts/frontend/css/</link>
+      <pubDate>Sun, 06 Aug 2023 22:13:26 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/frontend/css/</guid>
+      <description>CSS # 오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다.</description>
+    </item>
+    
     <item>
       <title>[현대 소프티어] FE 뉴스스탠드 #9</title>
       <link>https://kimdaye77.github.io/posts/fe-newsstand/fe-newsstand9/</link>
