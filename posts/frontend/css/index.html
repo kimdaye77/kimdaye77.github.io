@@ -19,10 +19,10 @@
   <meta name="theme-color" content="rgb(255,255,255)" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>[FE] CSS 라이브러리와 프레임워크 &middot; Dayo&#39;s Blog</title>
-    <meta name="title" content="[FE] CSS 라이브러리와 프레임워크 &middot; Dayo&#39;s Blog" />
+  <title>[FE] CSS-position 속성 &middot; Dayo&#39;s Blog</title>
+    <meta name="title" content="[FE] CSS-position 속성 &middot; Dayo&#39;s Blog" />
   
-  <meta name="description" content="CSS # 오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다." />
+  <meta name="description" content="CSS # 오늘은 Cartag 프로젝트에서 position 속성 중 sticky를 사용해봤다." />
   
   
   
@@ -74,16 +74,16 @@
   
   
   
-  <meta property="og:title" content="[FE] CSS 라이브러리와 프레임워크" />
-<meta property="og:description" content="CSS # 오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다." />
+  <meta property="og:title" content="[FE] CSS-position 속성" />
+<meta property="og:description" content="CSS # 오늘은 Cartag 프로젝트에서 position 속성 중 sticky를 사용해봤다." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://kimdaye77.github.io/posts/frontend/css/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-08-06T22:13:26+09:00" />
-<meta property="article:modified_time" content="2023-08-06T22:13:26+09:00" />
+<meta property="article:published_time" content="2023-08-09T20:47:34+09:00" />
+<meta property="article:modified_time" content="2023-08-09T20:47:34+09:00" />
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="[FE] CSS 라이브러리와 프레임워크"/>
-<meta name="twitter:description" content="CSS # 오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다."/>
+<meta name="twitter:title" content="[FE] CSS-position 속성"/>
+<meta name="twitter:description" content="CSS # 오늘은 Cartag 프로젝트에서 position 속성 중 sticky를 사용해봤다."/>
 
   
   <script type="application/ld+json">
@@ -91,10 +91,10 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Posts",
-    "name": "[FE] CSS 라이브러리와 프레임워크",
-    "headline": "[FE] CSS 라이브러리와 프레임워크",
+    "name": "[FE] CSS-position 속성",
+    "headline": "[FE] CSS-position 속성",
     
-    "abstract": "CSS # 오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다.",
+    "abstract": "CSS # 오늘은 Cartag 프로젝트에서 position 속성 중 sticky를 사용해봤다.",
     "inLanguage": "en",
     "url" : "https:\/\/kimdaye77.github.io\/posts\/frontend\/css\/",
     "author" : {
@@ -102,15 +102,15 @@
       "name": "코딩하는 다요"
     },
     "copyrightYear": "2023",
-    "dateCreated": "2023-08-06T22:13:26\u002b09:00",
-    "datePublished": "2023-08-06T22:13:26\u002b09:00",
+    "dateCreated": "2023-08-09T20:47:34\u002b09:00",
+    "datePublished": "2023-08-09T20:47:34\u002b09:00",
     
-    "dateModified": "2023-08-06T22:13:26\u002b09:00",
+    "dateModified": "2023-08-09T20:47:34\u002b09:00",
     
     "keywords": ["프론트엔드"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "318"
+    "wordCount": "245"
   }]
   </script>
 
@@ -391,7 +391,7 @@
     <header class="max-w-prose">
       
       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-        [FE] CSS 라이브러리와 프레임워크
+        [FE] CSS-position 속성
       </h1>
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         
@@ -430,7 +430,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2023-08-06 22:13:26 &#43;0900 KST">6 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>318 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2023-08-09 20:47:34 &#43;0900 KST">9 August 2023</time><span class="px-2 text-primary-500">&middot;</span><span>245 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">2 mins</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -438,7 +438,7 @@
 
 <span class="mb-[2px]">
   <a
-    href="https://github.com/kimdaye77/Hugo-blog/tree/main/content/posts/frontend/css.md"
+    href="https://github.com/kimdaye77/Hugo-blog/tree/main/content/posts/frontend/css-position.md"
     class="text-lg hover:text-primary-500"
     rel="noopener noreferrer"
     target="_blank"
@@ -491,15 +491,17 @@
   <ul>
     <li><a href="#css">CSS</a>
       <ul>
-        <li><a href="#css란">CSS란?</a></li>
-        <li><a href="#sass">Sass</a></li>
-        <li><a href="#tailwind-css">Tailwind CSS</a></li>
-        <li><a href="#css-modules">CSS Modules</a></li>
-        <li><a href="#styled-component">Styled-component</a>
+        <li><a href="#position">Position</a>
           <ul>
-            <li><a href="#소견">소견</a></li>
+            <li><a href="#static">static</a></li>
+            <li><a href="#inherit">inherit</a></li>
+            <li><a href="#absolute">absolute</a></li>
+            <li><a href="#relative">relative</a></li>
+            <li><a href="#fixed">fixed</a></li>
+            <li><a href="#sticky">sticky</a></li>
           </ul>
         </li>
+        <li><a href="#적용-영상">적용 영상</a></li>
       </ul>
     </li>
   </ul>
@@ -512,80 +514,56 @@
       
       <div class="min-w-0 min-h-0 max-w-prose grow">
         <h2 id="css" class="relative group">CSS <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#css" aria-label="Anchor">#</a></span></h2>
-<p>오늘은 무엇에 관해 블로그 글을 정리할지 많은 고민을 했다.
-고민 끝에 내린 결론은 CSS이다. 따라서 이번 공부의 주제는 CSS이다. 사실 나는 깡 css를 주로 사용을 해보았고(<del>굳이 썼다면 부트스트랩이나 material</del>) 이번 프로젝트를 진행하면서 <code>styled-components</code>를 처음 사용해보았다. 사용하고서 재사용성, 유지보수성 등의 면에서 너무 흡족했고 이에 따라 <code>Tailwind CSS</code>라던가 <code>SCSS</code> 등 css 사용을 돕기 위한 다른 스타일 라이브러리 및 프레임워크에 관해서도 알고 싶었다.</p>
-<h3 id="css란" class="relative group">CSS란? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#css%eb%9e%80" aria-label="Anchor">#</a></span></h3>
-<p>CSS는 기본적으로 HTML의 스타일링을 위한 라이브러리이다.
-CSS의 사용을 돕기 위한 여러가지 라이브러리나 프레임워크들이 많이 지원된다.
-아래의 사진은 만족도와 사용도
+<p>오늘은 Cartag 프로젝트에서 <code>position</code> 속성 중 <code>sticky</code>를 사용해봤다.<br>
+<code>sticky</code>는 최근에 추가된 속성으로 <code>fixed</code>와 <code>static</code>의 속성을 정한 값에 따라 적용할 수 있는 좋은 기술이다.<br>
+<del>요즘에는 참 좋은 기술이 많이 생긴 것 같다.</del></p>
+<h3 id="position" class="relative group">Position <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#position" aria-label="Anchor">#</a></span></h3>
+<p><code>position</code> 속성은 html 태그의 위치를 정할 수 있으며 여러 가지 속성값이 있다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="err">#</span> <span class="err">사용법</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">position</span><span class="o">:</span> <span class="p">{</span><span class="err">원하는</span> <span class="err">속성값</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="err">#</span> <span class="err">예시</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box1</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">inherit</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box2</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">static</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box3</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">absolute</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box4</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">relative</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box5</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">fixed</span> <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">#</span><span class="nn">box6</span> <span class="p">{</span> <span class="k">position</span><span class="p">:</span><span class="kc">sticky</span> <span class="p">}</span>
+</span></span></code></pre></div><p>속성값으로는 다음과 같이 있다.</p>
+<h4 id="static" class="relative group">static <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#static" aria-label="Anchor">#</a></span></h4>
+<p><strong>기본값</strong>이다. 다른 요소와의 관계에 의해 auto로 배치된다.
+좌표를 설정할 수 없다.</p>
+<h4 id="inherit" class="relative group">inherit <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#inherit" aria-label="Anchor">#</a></span></h4>
+<p>부모 요소의 태그 속🕊️성값을 상속받는다.</p>
+<h4 id="absolute" class="relative group">absolute <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#absolute" aria-label="Anchor">#</a></span></h4>
+<p>부모 요소를 <code>relative</code>로 주고 본인(자식)을 <code>position: absolute</code>와 <code>top, bottom, left, right</code> 좌표를 지정해주면 절대 좌표로 위치를 지정할 수 있다.
+<br>absolute 속성 값은 아래의 relativ와 자주 쓰인다.
+겹치는 요소일 때 많이 사용한다.</p>
+<h4 id="relative" class="relative group">relative <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#relative" aria-label="Anchor">#</a></span></h4>
+<p>원래 있던 위치를 기준으로 좌표를 지정한다.</p>
+<h4 id="fixed" class="relative group">fixed <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#fixed" aria-label="Anchor">#</a></span></h4>
+<p>스크롤에 관계 없이 좌표를 고정한다. Nav 바 같은 곳이나 Footer에 많이 쓰인다.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-css" data-lang="css"><span class="line"><span class="cl"><span class="err">#</span> <span class="err">예시</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nt">position</span><span class="o">:</span> <span class="nt">fixed</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">top</span><span class="o">:</span> <span class="nt">0px</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">left</span><span class="o">:</span> <span class="nt">0px</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">z-index</span><span class="o">:</span> <span class="nt">999</span><span class="o">;</span> <span class="o">//</span><span class="err">구구구</span><span class="o">..</span><span class="err">🕊️</span>
+</span></span></code></pre></div><h4 id="sticky" class="relative group">sticky <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sticky" aria-label="Anchor">#</a></span></h4>
+<p>static과 fixed가 섞인 느낌! 원래는 static하게 존재하다가 스크롤시 지정 지점에서 요소를 고정시킨다.</p>
+<pre tabindex="0"><code># sticky 사용 시 주의점
 
+1. sticky 속성을 갖는 요소의 부모 태그에 height이 지정되어 있어야 한다.
+   (부모 height 높이 값만큼 고정된다.)
 
-
-
-
-  <figure>
-    <img
-      class="mx-auto my-0 rounded-md"
-      src="https://velog.velcdn.com/images/skyu_dev/post/c4a9817f-a827-460d-8c8d-e7008c0ca3bb/image.png"
-      alt="css" 
-      
-        loading="lazy"
-      
-    />
-    
-  </figure>
-
-</p>
-<h3 id="sass" class="relative group">Sass <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#sass" aria-label="Anchor">#</a></span></h3>
-<blockquote>
-<p>Syntactically Awesome Style Sheets</p>
-</blockquote>
-<p>앞글자를 따서 Sass라고 한다.
-Sass는 SASS, SCSS 문법이 있다. 기능은 같지만 아래 사진처럼 문법이 약간씩 차이가 있다.
-
-
-
-
-
-  <figure>
-    <img
-      class="mx-auto my-0 rounded-md"
-      src="https://velog.velcdn.com/images/aideneverywhere/post/4242f0f2-11a6-49ab-b138-92f4d3e629b6/image.png"
-      alt="Sass" 
-      
-        loading="lazy"
-      
-    />
-    
-  </figure>
-
-
-SASS는 identation(들여쓰기)과 newline을 사용하고 SCSS는 curly braces(중괄호)와 semicolon을 사용한다.</p>
-<h3 id="tailwind-css" class="relative group">Tailwind CSS <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#tailwind-css" aria-label="Anchor">#</a></span></h3>
-<blockquote>
-<p>Atomic CSS</p>
-</blockquote>
-<p>여러 css 의 조합으로 하나의 스타일링을 정의하는 방식과 반대로 Tailwind 는 css 들을 모조리 분해하여 사용자가 자유롭게 조합할 수 있도록 만들었다.
-최근 인기와 관심도가 높은 기술 중 하나라고 한다.
-더 자세히 말하자면, 모두 같은 specificity class로 구성되어 CSS의 관리와 네이밍을 위한 고민이 필요하지 않다고 한다.</p>
-<h3 id="css-modules" class="relative group">CSS Modules <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#css-modules" aria-label="Anchor">#</a></span></h3>
-<blockquote>
-<p>CSS-in-CSS</p>
-</blockquote>
-<p>CSS 파일에 선언한 클래스명이 자동 변경되어 중복을 신경쓰지 않아도 되며, 전체 페이지의 CSS를 렌더링 시 한 번에 로드한다.</p>
-<h3 id="styled-component" class="relative group">Styled-component <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#styled-component" aria-label="Anchor">#</a></span></h3>
-<blockquote>
-<p>CSS-in-JS</p>
-</blockquote>
-<p>한 마디로 스타일을 가진 컴포넌트를 정의해서 사용할 수 있다. CSS를 JS를 통해 만들어서 return 구문은 semantic한 컴포넌트들로만 구성되어 있어 가독성 좋은 코드를 만들 수 있다. 컴포넌트로 전달하는 값(JS 함수, 값 공유)에 따라 동적으로 스타일 적용 가능하다.
-JS 런타임 과정에서 동적인 클래스명을 생성해준다. 정말 좋은 점은 클래스명이나 id명을 랜덤으로 자동 생성해주기 때문에 중복이 발생할 일이 없다. 하지만 CSS 구문 분석 과정이 필요해서 렌더링 속도가 느리다.</p>
-<h4 id="소견" class="relative group">소견 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%ec%86%8c%ea%b2%ac" aria-label="Anchor">#</a></span></h4>
-<p><strong>Sass</strong>
-보면서 Sass에서 문법은 SASS보다는 SCSS가 편한 것 같다. 파이썬 개발자는 전자가 편할지도 모르지만 나는 주로 개발 언어가 c언어나 js쪽이기 후자가 편하다.</p>
-<p><strong>Tailwind CSS</strong>
-Tailwind CSS는 진짜 방법이 달라서 감이 잡히지도 않는다.</p>
-<p><strong>CSS Modules vs Styled Component</strong>
-이 둘의 특징이 정말 상반돼서 신기했다. 지금 Styled-component를 사용하고 있으므로 다른 특징을 지닌 Css Modules로도 개발을 진행해보면 둘의 특징을 확실하게 알 수 있을 것 같다.</p>
+2. 부모요소중에 overflow: hidden, auto, scroll 속성이 적용되어 있으면 안된다.
+</code></pre><h3 id="적용-영상" class="relative group">적용 영상 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%ec%a0%81%ec%9a%a9-%ec%98%81%ec%83%81" aria-label="Anchor">#</a></span></h3>
+<p>나는 <code>top: {원하는 높이px}</code>만큼 줬기 때문에 영상에서 보다 싶이 저 픽셀까지는 스크롤 되다가(static 속성) 이후로는 fixed 속성과 같이 고정된 곳에 위치하도록 동작한다. sticky는 영상이나 그림으로 보는 것이 이해가 쉽다.</p>
+<video controls>
+    <source src="https://github.com/softeerbootcamp-2nd/A2-CarTag/assets/63107805/3aef0705-ce46-4cbd-8891-bd0cc427d75e" type="video/mp4" />
+</video>
 
       </div>
     </section>
@@ -655,29 +633,12 @@ Tailwind CSS는 진짜 방법이 달라서 감이 잡히지도 않는다.</p>
       <div class="flex justify-between pt-3">
         <span>
           
-            <a class="group flex" href="/posts/cs-study/cs-study1/">
+            <a class="group flex" href="/posts/frontend/routing/">
               <span
                 class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
                 ><span class="ltr:inline rtl:hidden">&larr;</span
                 ><span class="ltr:hidden rtl:inline">&rarr;</span></span
               >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >[CS] CS 공부 #1</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                    <time datetime="2023-08-05 07:50:30 &#43;0900 KST">5 August 2023</time>
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="group flex text-right" href="/posts/frontend/routing/">
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -689,12 +650,10 @@ Tailwind CSS는 진짜 방법이 달라서 감이 잡히지도 않는다.</p>
                   
                 </span>
               </span>
-              <span
-                class="ms-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
-                ><span class="ltr:inline rtl:hidden">&rarr;</span
-                ><span class="ltr:hidden rtl:inline">&larr;</span></span
-              >
             </a>
+          
+        </span>
+        <span>
           
         </span>
       </div>
