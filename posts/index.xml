@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Dayo&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Aug 2023 20:29:13 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Aug 2023 20:30:14 +0900</lastBuildDate><atom:link href="https://kimdaye77.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[FE] Context API</title>
+      <link>https://kimdaye77.github.io/posts/frontend/context-api/</link>
+      <pubDate>Fri, 11 Aug 2023 20:30:14 +0900</pubDate>
+      
+      <guid>https://kimdaye77.github.io/posts/frontend/context-api/</guid>
+      <description>Context API # 오늘은 Context API라는 주제에 대해 다뤄보겠다.</description>
+    </item>
+    
     <item>
       <title>[FE] 리액트 훅 - useRef</title>
       <link>https://kimdaye77.github.io/posts/frontend/useref/</link>
